@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel Stagg Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div class="navbar">
+        <ul>
+            <div>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li class="resume-btn"><a href="./Daniel_Stagg_Resume.pdf" target="_blank">Resume</a></li>
+            </div>
+            <div class="svg-icons">
+                <li><a href="https://github.com/T0MIS0N/" target="_blank"><img src="./github-dark.svg"></a></li>
+                <li><a href="https://www.linkedin.com/in/daniel-stagg-8950a0170/" target="_blank"><img
+                            src="./linkedin-dark.svg"></a></li>
+            </div>
+        </ul>
+    </div>
+
+    <div class="content">
+        <section id="about-me">
+            <div>
+                <div>
+                    <h1>About Me</h1>
+                    <hr>
+                </div>
+                <div class="rows">
+                    <div class="columns">
+                        <img class="portrait" src="portrait.jpeg" alt="A picture of me, Daniel Stagg">
+                    </div>
+                    <div class="columns">
+                        <h4>
+                            Hi, I'm Daniel Stagg, an aspiring Software Developer. My main area of interest in Software
+                            Development is Web Development, specifically on the Frontend.
+                            My hobbies include programming, creating artwork, and playing video games.
+                        </h4>
+                        <h4>The technologies I've been working with lately are:</h4>
+                        <ul>
+                            <li>Javascript</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>React</li>
+                            <li>GDScript</li>
+                            <li>Python</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="projects">
+            <div class="heading">
+                <h1>Projects</h1>
+                <hr>
+            </div>
+            <div id="proj-div">
+                <div class="columns project-card">
+                    <img class="project-image" alt="Project Screenshot" src="./AnimalCrossingTracker.PNG">
+                    <div class="project-info">
+                        <h3>Animal Crossing Tracker</h3>
+                        <h4>An unofficial Animal Crossing web app to help players track their progress towards
+                            collecting critters by displaying currently available critters that haven't been collected
+                            by the player yet.</h4>
+                        <h4>Technologies</h4>
+                        <ul>
+                            <div class="rows">
+                                <div class="columns">
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>Javascript</li>
+                                </div>
+                                <div class="columns">
+                                    <li>React</li>
+                                    <li>Python</li>
+                                    <li>Glorious Soup 4</li>
+                                </div>
+                            </div>
+                        </ul>
+                    </div>
+                    <div class="link-div">
+                        <a href="https://github.com/T0MIS0N/Animal-Crossing-Tracker" target="_blank">Live Website</a>
+                        <a href="https://github.com/T0MIS0N/Animal-Crossing-Tracker" target="_blank">Github
+                            Repository</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section id="contact">
+            <div>
+                <div>
+                    <h1>Contact Me</h1>
+                    <hr>
+                </div>
+                <div class="rows">
+                    <div class="columns">
+                        <img class="portrait" src="contact.jpg" alt="An envelope on a table.">
+                    </div>
+                    <div class="columns">
+                        <form action="https://formsubmit.co/0fc8caea0578d6418efec9250303561e" method="POST">
+                            <label for="">Email Address</label>
+                            <input type="email" name="email" required placeholder="Enter your email here..."></input>
+                            <label for="">Full Name</label>
+                            <input type="text" name="name" required placeholder="Enter your full name here..."></input>
+                            <label for="">Message</label>
+                            <textarea name="message" required placeholder="Enter your message here..."></textarea>
+                            <button type="submit">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+</body>
+
+</html>
